@@ -45,10 +45,3 @@ This project is built using the following modern technologies:
 ## 🛠️ Getting Started
 
 To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
