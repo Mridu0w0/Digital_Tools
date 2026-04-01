@@ -6,16 +6,16 @@ const Navbar = ({ cartValue }) => {
     <div>
       <div className="navbar bg-base-100 shadow-sm fixed top-0 z-50 px-4 lg:px-8 w-full">
         
-        {/* START: Mobile Dropdown & Logo */}
+     
         <div className="navbar-start">
-          {/* Hamburger Menu (Hidden on Desktop) */}
+        
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden pl-0 pr-2">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
-            {/* Mobile Menu Links */}
+           
             <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-semibold">
               <li><a>Products</a></li>
               <li><a>Features</a></li>
@@ -26,14 +26,14 @@ const Navbar = ({ cartValue }) => {
           </div>
 
           <a className="btn btn-ghost p-0 hover:bg-transparent">
-            {/* Text scales down to 2xl on mobile to prevent overflow */}
+         
             <span className="text-2xl md:text-4xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text">
               DigiTools
             </span>
           </a>
         </div>
 
-        {/* CENTER: Desktop Menu Links (Hidden on Mobile) */}
+       
         <div className="navbar-center hidden lg:flex text-sm font-semibold">
           <ul className="menu menu-horizontal px-1">
             <li><a>Products</a></li>
@@ -44,7 +44,7 @@ const Navbar = ({ cartValue }) => {
           </ul>
         </div>
 
-        {/* END: Cart & Buttons */}
+
         <div className="navbar-end flex gap-1 md:gap-4">
           
           <div className="dropdown dropdown-end">
@@ -59,7 +59,7 @@ const Navbar = ({ cartValue }) => {
           </div>
 
           <div className="flex gap-1 md:gap-3 items-center">
-            {/* Button sizes scale down on mobile (btn-sm) */}
+    
             <button className="btn btn-sm md:btn-md bg-transparent border-none font-bold px-2">
               Login
             </button>
